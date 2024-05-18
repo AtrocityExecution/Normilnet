@@ -1,0 +1,105 @@
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+  
+}
+
+#root {
+  max-width: var(--root-max-width);
+  min-height: 100vh;
+  margin: 0 auto;
+  
+  
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url('../images-gifs/Black_and_White_floor_tile.jpg');
+}
+
+.top-nav{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  user-select: none;
+  font-family: 'Kingthings', sans-serif;
+  background-image: url('../images-gifs/lightning.gif');
+  border-radius: 10px;
+  
+}
+
+.top-nav ul{
+  margin-left: 16px;
+}
+
+.bottom-nav{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  background-color: #000;
+  width: var(--root-max-width);
+  border-radius: 10px;
+}
+
+.marquee{
+  
+  font-family: 'Tachyo', sans-serif;
+  
+  color: aliceblue;
+}
+
+.marquee img{
+  height: auto;
+  flex-shrink: 0;
+  justify-content: space-between;
+  margin-right: 35px;
+}
+
+.gap-2 {
+  gap: 1.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.home-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  
+}
+
+.projects-page{
+  background-image: url('../images-gifs/gmbg.gif');
+  
+}
+
+.prop1{
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  bottom: 1;
+  left: 1;
+}
+
+.not-found{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
