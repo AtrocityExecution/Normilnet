@@ -1,34 +1,33 @@
 import React from "react";
+import ProjectCard1 from "../components/project-card";
+import ProjectCard2 from "../components/project-card2";
+import ProjectCard3 from "../components/project-card3";
+import Draggable from "react-draggable";
 
 const ProjectsPage = () => {
         
             return (
                 <div className="projects-page">
-                    <h1>Projects</h1>
-                        
-                    <ul>
-                        <li>
-                            <section>
-                                <h2>Server Rack Component Detector</h2>
-                                <p>Project 1 is a project that I have been working on for a while now. It is a project that I am very proud of and I hope that you will enjoy it as well.</p>
-                            </section>
-                        </li>
 
-                        <li>
-                            <section>
-                                <h2>Anima-Vista</h2>
-                                <p>Project 1 is a project that I have been working on for a while now. It is a project that I am very proud of and I hope that you will enjoy it as well.</p>
-                            </section>
-                        </li>
+                    <div className="project-cards">
+                        <Draggable defaultPosition={{x: 50, y: 50}}>
+                        <div id="project-card1" className="card-position1">
+                            <ProjectCard1 />
+                        </div>
+                        </Draggable>
 
-                        <li>
-                            <section>
-                                <h2>M-Genesis</h2>
-                                <p>Project 1 is a project that I have been working on for a while now. It is a project that I am very proud of and I hope that you will enjoy it as well.</p>
-                            </section>
-                        </li>
+                        <Draggable defaultPosition={{x: 200, y: 200}}>
+                        <div id="project-card2">
+                            <ProjectCard2 />
+                        </div>
+                        </Draggable>
 
-                    </ul>
+                        <Draggable defaultPosition={{x: 350, y: 350}}>
+                        <div id="project-card3">
+                            <ProjectCard3 />
+                        </div>
+                        </Draggable>
+                    </div>
                     
                 </div>
             )

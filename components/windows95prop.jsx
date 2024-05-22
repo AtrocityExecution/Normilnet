@@ -3,7 +3,7 @@ import { Tab, TabBody, Tabs,
      Window, WindowContent, WindowHeader } from 'react95';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Draggable from 'react-draggable';
-
+import { Link } from 'react-router-dom';
 import aiee from 'react95/dist/themes/original';
 
 
@@ -20,7 +20,7 @@ const Windows95Prop = () => {
 
     return (
         <Draggable>
-        <div>
+        <div className="main-popup">
             
             <ThemeProvider theme={aiee}>
                 <Window style={{width: 450}}>
@@ -40,16 +40,16 @@ const Windows95Prop = () => {
                                         </p>
                                         <br/>
 
-                                        <h3>I soon hope to be a part of developing and automating our daily
-                                             lives to the point of extinction!
+                                        <h3>I soon hope to be a part of developing and automating the duties of
+                                            the human race!
                                         </h3>
 
                                     </div>
                                 )}
                                 {tab === 'Projects' && (
                                     <div>
-                                        <p>Here are some of my projects!</p>
-                                        
+                                        <p>The vast majority of my projects are in my <a href="https://github.com/AtrocityExecution">Github</a>, but in the meantime...</p>
+                                        <h4>Checkout some of my <Link to='/projects' >featured projects!</Link></h4>
                                     </div>
                                 )}
                                 {tab === 'Sites' && (

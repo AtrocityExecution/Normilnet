@@ -7,6 +7,11 @@ const moveGif4 = '../images-gifs/linuxnow.gif';
 const moveGif5 = '../images-gifs/kalibutton.gif';
 const moveGif6 = '../images-gifs/hell2.gif';
 const moveGif7 = '../images-gifs/antibro3.gif';
+const moveGif8 = '../images-gifs/a2600now.gif';
+const moveGif9 = '../images-gifs/javabutton.gif';
+const moveGif10 = '../images-gifs/macmade.anim.gif';
+const moveGif11 = '../images-gifs/mediawindowsdownload.gif';
+const moveGif12 = '../images-gifs/vinculo01.gif';
 
 const BottomNav = () => {
 
@@ -32,6 +37,17 @@ const BottomNav = () => {
                 <img src={moveGif6} alt="move6" />
 
                 <img src={moveGif7} alt="move7" />
+
+                <img src={moveGif8} alt="move8" />
+                
+                <img src={moveGif9} alt="move9" />
+                
+                <img src={moveGif10} alt="move10" />
+
+                <img src={moveGif11} alt="move11" />
+
+                <img src={moveGif12} alt="move12" />
+  
             </Marquee>
             
         </div> 

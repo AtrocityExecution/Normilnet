@@ -1,3 +1,5 @@
+
+
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -7,6 +9,8 @@
   }
   
 }
+
+
 
 #root {
   max-width: var(--root-max-width);
@@ -24,7 +28,8 @@ body, html {
 }
 
 body{
-  background-image: url('../images-gifs/Black_and_White_floor_tile.jpg');
+  background-image: url('../images-gifs/Il5.gif');
+  
 }
 
 .top-nav{
@@ -32,7 +37,7 @@ body{
   flex-direction: column;
   position: relative;
   user-select: none;
-  font-family: 'Kingthings', sans-serif;
+  font-family: 'LeviWindows', sans-serif;
   background-image: url('../images-gifs/lightning.gif');
   border-radius: 10px;
   
@@ -82,10 +87,28 @@ body{
   
 }
 
-.projects-page{
-  background-image: url('../images-gifs/gmbg.gif');
-  
+.main-popup{
+  font-family: 'LeviWindows', sans-serif;
 }
+
+
+
+.projects-page{
+  display: relative;
+  margin-top: 2rem;
+  height: auto;
+}
+
+.project-cards{
+  display: flex;
+  transition: all 0.5s ease-in-out;
+}
+
+#project-card1{
+  position: relative;
+}
+
+
 
 .prop1{
   border: 1px solid #000;
@@ -103,3 +126,41 @@ body{
   margin-top: 4rem;
 }
 
+.project-card1{
+  font-family: 'LeviWindows', sans-serif;
+  position: absolute;
+}
+
+.project-card2{
+  font-family: 'LeviWindows', sans-serif;
+  position: absolute;
+}
+
+.project-card2 li{
+  list-style-type: none; /* Remove default bullet point */
+  background: url('../images-gifs/SAPPHIRErotating.gif') no-repeat left center; /* Add your image */
+  background-size: 20px 20px; /* Size of your image */
+  padding-left: 30px; /* Space for the image */
+  font-size: 18px;
+}
+
+.project-card3{
+  font-family: 'LeviWindows', sans-serif;
+  position: absolute;
+  
+}
+
+.small-font{
+  font-size: 14px;
+}
+
+.icons{ 
+  justify-content: end;
+
+}
+
+.window-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

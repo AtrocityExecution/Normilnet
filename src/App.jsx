@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import TopNav from '../components/top-nav'
+import BottomNav from '../components/bottom-nav'
 import BlogPage from '../pages/blog-page'
 import GalleryPage from '../pages/gallery-page'
 import HomePage from '../pages/home-page'
@@ -26,6 +27,7 @@ function App() {
         <Route path='*' element={<NotFoundPage/>} />
         
       </Routes>
+      <BottomNav />
       </BrowserRouter>
     </>
   )
