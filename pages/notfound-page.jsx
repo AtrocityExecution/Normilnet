@@ -1,12 +1,12 @@
 import React from "react";
-const notfoundGIF = '../images-gifs/borderunderconst.gif';
+import NotfoundProp from "../components/notfound-prop";
 
 const NotFoundPage = () => {
         
             return (
                 <div className='not-found'>
-                    <h1>404 Not Found</h1>
-                    <img src={notfoundGIF} alt='404' />
+                    
+                    <NotfoundProp />
                 
                 </div>
             )

@@ -2,9 +2,8 @@ import React, {useState} from "react";
 import { Button, Tab, TabBody, Tabs,
     Window, WindowContent, WindowHeader } from 'react95';
 import { ThemeProvider } from 'styled-components';
-import Draggable from 'react-draggable';
-
 import denim from 'react95/dist/themes/denim';
+import expandIcon from '../images-gifs/expand-icon.png'
 
 const ProjectCard2 = () => {
 
@@ -31,7 +30,7 @@ const ProjectCard2 = () => {
                         <span>Anima-Vista.exe</span>
                         <div className="window-icons">
                             <Button onClick={toggleMinimize}>
-                                <img src={'../images-gifs/expand-icon.png'} alt="expand-icon"  width={12} height={12}/>
+                                <img src={expandIcon} alt="expand-icon"  width={12} height={12}/>
                             </Button>
                         </div>
                     </WindowHeader>

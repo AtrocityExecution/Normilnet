@@ -34,15 +34,10 @@ const Windows95Prop = () => {
                             <TabBody style={{height: 300}}>
                                 {tab === 'About' && (
                                     <div>
-                                        <p> Greetings! My name is Normil Luccin
-                                            and I am a soon to be graduate at Florida Atlantic University
-                                            with a Bachelor's Degree in Computer Science!
+                                        <p> 
+                                            Hello, my name is Normil and welcome to my website! Just explore...
                                         </p>
                                         <br/>
-
-                                        <h3>I soon hope to be a part of developing and automating the duties of
-                                            the human race!
-                                        </h3>
 
                                     </div>
                                 )}
