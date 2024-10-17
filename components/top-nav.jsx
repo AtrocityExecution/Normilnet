@@ -13,7 +13,8 @@ const TopNav = () => {
                 
                 <div className="nav-list">
                     <ul class="flex gap-2">
-                    <li><Link to='/home'> Home </Link></li>
+                    <li><Link to='/'> Home </Link></li>
+                    <li><Link to='/skills'>Skills</Link></li>
                     <li><Link to='/projects'>Projects</Link></li>
                     <li><Link to='/gallery'>Gallery</Link></li>
                     <li><Link to='/blog'>Blog</Link></li>

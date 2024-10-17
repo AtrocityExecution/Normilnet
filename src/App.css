@@ -10,6 +10,16 @@
   
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(100px) rotate(-360deg);
+  }
+ 
+}
+
 
 
 #root {
@@ -205,6 +215,8 @@ body{
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  font-family: 'LeviWindows', sans-serif;
+  
 }
 
 .reading-page{
@@ -213,4 +225,28 @@ body{
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+}
+
+.skills-page{
+  position: relative;
+  margin-top: 2rem;
+  height: 80vh; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.icon {
+  height: 40px;
+  pointer-events: none;
+  transform-origin: 100px 100px;
+}
+
+.tech-stack{
+  right: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
