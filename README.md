@@ -2,7 +2,9 @@
 
 ## History
 
+### Version 1.0
 
+![Website 1.0](w-history/Version_1.gif)
 
 
 ## React + Vite
