@@ -25,27 +25,16 @@ const BottomNav = () => {
             <Marquee autoFill={true} gradient={false} speed={80} pauseOnHover={true}>
                 
                 <img src={moveGif} alt="move1" />
-                
                 <img src={moveGif2} alt="move2" />
-                
                 <img src={moveGif3} alt="move3" />
-                
                 <img src={moveGif4} alt="move4" />
-                
                 <img src={moveGif5} alt="move5" />
-
                 <img src={moveGif6} alt="move6" />
-
                 <img src={moveGif7} alt="move7" />
-
                 <img src={moveGif8} alt="move8" />
-                
                 <img src={moveGif9} alt="move9" />
-                
                 <img src={moveGif10} alt="move10" />
-
                 <img src={moveGif11} alt="move11" />
-
                 <img src={moveGif12} alt="move12" />
   
             </Marquee>

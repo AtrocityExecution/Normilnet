@@ -10,16 +10,6 @@
   
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg) translateX(100px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translateX(100px) rotate(-360deg);
-  }
- 
-}
-
 
 
 #root {
@@ -37,7 +27,7 @@ body, html {
 }
 
 body{
-  background-image: url('../images-gifs/Il5.gif');
+  background-image: url('../images-gifs/num.gif');
   
 }
 
@@ -47,7 +37,8 @@ body{
   position: relative;
   user-select: none;
   font-family: 'LeviWindows', sans-serif;
-  background-image: url('../images-gifs/lightning.gif');
+  background-image: url('../images-gifs/rivet_steel.jpg');
+  background-size: contain;
   border-radius: 10px;
   
 }
@@ -60,7 +51,7 @@ body{
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  background-color: #000;
+  background-color: transparent;
   width: var(--root-max-width);
   border-radius: 10px;
 }
@@ -161,7 +152,15 @@ body{
 .project-card3{
   font-family: 'LeviWindows', sans-serif;
   position: absolute;
-  
+}
+
+.project-card4{
+  font-family: 'LeviWindows', sans-serif;
+  position: absolute;
+}
+
+.project-card4 p{
+  font-size: 14px;
 }
 
 .small-font{
@@ -219,12 +218,52 @@ body{
   
 }
 
-.reading-page{
+.popup-window{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+}
+
+.window-content{
+  display: flexbox;
+  width: 560px;
+  height: 490px;
+  overflow: 'hidden';
+}
+
+.window-frame{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 60%;
+  height: 50%;
+  overflow: hidden;
+  margin:  1rem;
   justify-content: center;
+  object-fit: contain;
+}
+
+.window-frame img{
+  object-fit: contain;
+}
+
+.frame-image img{
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.winwindow-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reading-page{
+  position: relative;
   margin-top: 2rem;
+  height: 80vh; 
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-page{

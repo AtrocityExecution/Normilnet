@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import titleTheme from '../images-gifs/n_title3.gif'
 
 
 const TopNav = () => {
@@ -7,9 +8,7 @@ const TopNav = () => {
     return (
        
             <div className="top-nav">
-                <div><img src="nl-logo1-1.gif" ></img></div>
-                
-                
+                <div><img src={titleTheme} width="400px"></img></div>
                 
                 <div className="nav-list">
                     <ul class="flex gap-2">

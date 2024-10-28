@@ -1,11 +1,11 @@
 import React from "react";
-import BorderUnderConst from "../images-gifs/borderunderconst.gif";
+import construction from "../images-gifs/construction.gif";
 
 const ReadingPage = () => {
 
     return (
         <div className="reading-page">
-            <img src={BorderUnderConst} alt="coming soon" />
+            <img src={construction} alt="coming soon" />
         </div>
     )
 }
