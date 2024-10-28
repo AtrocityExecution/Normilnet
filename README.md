@@ -6,7 +6,9 @@
 
 ![Website 1.0](w-history/Version_1.gif)
 
+### Version 1.1
 
+![Website 1.0](w-history/Version_1.1.gif)
 ## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
