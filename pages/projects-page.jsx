@@ -3,6 +3,7 @@ import ProjectCard1 from "../components/project-card";
 import ProjectCard2 from "../components/project-card2";
 import ProjectCard3 from "../components/project-card3";
 import ProjectCard4 from "../components/project-card4";
+import ProjectCard5 from "../components/project-card5";
 import Draggable from "react-draggable";
 
 const ProjectsPage = () => {
@@ -32,6 +33,12 @@ const ProjectsPage = () => {
                         <Draggable defaultPosition={{x: 500, y: 500}}>
                         <div id="project-card4">
                             <ProjectCard4 />
+                        </div>
+                        </Draggable>
+
+                        <Draggable defaultPosition={{x: 650, y: 650}}>
+                        <div id="project-card5">
+                            <ProjectCard5 />
                         </div>
                         </Draggable>
                         

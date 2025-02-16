@@ -48,12 +48,6 @@ const BlogCard = () => {
               vistaesqueMidnight, water, white, windows1, wmii];
         const [themeIndex, setThemeIndex] = useState(0);
         const [popupWindows, setPopupWindows] = useState([]);
-
-        const [tab, setTab] = useState({tab: 'About'});
-    
-        const handleChange = (value) => {
-            setTab(value);
-        }
         
         const toggleMinimize = () => {
             setIsMinimized(!isMinimized);
@@ -89,6 +83,8 @@ const BlogCard = () => {
             date: '10/17/2024',
             content: 'I participated in the Hivestorm CTF on October 17th. This CTF was in testing my system configuration and forensics skills on Windows and Linux. After 4 hours, we ended up in the top 50% of about 450 teams, which was a great accomplishment in my book!',
             images: [hiveStorm]}
+
+            
         ]
 
         const settings = {
