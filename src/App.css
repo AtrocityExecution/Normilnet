@@ -27,7 +27,7 @@ body, html {
 }
 
 body{
-  background-image: url('../images-gifs/num.gif');
+  background-image: url('../images-gifs/binary_blue.gif');
   
 }
 
@@ -172,6 +172,11 @@ body{
   font-size: 14px;
 }
 
+.project-card6{
+  font-family: 'LeviWindows', sans-serif;
+  position: absolute;
+}
+
 .small-font{
   font-size: 14px;
 }
@@ -259,8 +264,11 @@ body{
   object-fit: contain;
 }
 
-.winwindow-footer{
+.window-footer{
   display: flex;
+  width: 615px;
+  margin-top: 1rem;
+  padding: 1rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -278,11 +286,37 @@ body{
 .skills-page{
   position: relative;
   margin-top: 2rem;
-  height: 80vh; 
-  overflow: hidden; 
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'LeviWindows', sans-serif;
+
+}
+
+.skills-card{
+
+}
+
+.skills-window{
+  height: 30%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  margin: 1rem;
+  padding: 1rem;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.skills-window img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+.skills-window img:hover{
+  transform: scale(1.2);
 
 }
 
