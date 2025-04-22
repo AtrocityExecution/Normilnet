@@ -36,11 +36,11 @@
 
 a {
   font-weight: 500;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 a:hover {
-  color: #0ec03b;
+  color: #ecf006;
 }
 
 

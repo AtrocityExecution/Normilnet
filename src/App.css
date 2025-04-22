@@ -27,7 +27,8 @@ body, html {
 }
 
 body{
-  background-image: url('../images-gifs/binary_blue.gif');
+  background-image: url('../images-gifs/b_strobe.gif');
+  
   
 }
 
@@ -37,7 +38,7 @@ body{
   position: relative;
   user-select: none;
   font-family: 'LeviWindows', sans-serif;
-  background-image: url('../images-gifs/rivet_steel.jpg');
+  background-image: url('../images-gifs/scifi_banner.jpg');
   background-size: contain;
   border-radius: 10px;
   

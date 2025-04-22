@@ -12,7 +12,7 @@ const HomePage = () => {
             <Window95Prop />
 
             <Draggable defaultPosition={{x: 650, y: 250}}>
-                <div className="monitor" style={{ cursor: 'move' }}>
+                <div className="monitor" >
                     <Monitor backgroundStyles={{ backgroundImage: 'url(../images-gifs/Wand.jpg)',
                          backgroundSize: 'cover', backgroundPosition: 'center' }} />
                 </div>
